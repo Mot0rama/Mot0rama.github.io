@@ -27,7 +27,7 @@ function App() {
           <Ulnav />
         </Block2>
         <Block3>
-          <Route path="/" component={GalPage} />
+          <Route exact path="/" component={GalPage} />
           <Route path="/price" component={PricePage} />
           <Route path="/contacts" component={Contacts} />
           <Route path="/album/:album" component={PhotoGallery} />

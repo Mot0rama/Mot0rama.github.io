@@ -26,77 +26,77 @@ export function GalPage(props) {
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/004.jpg"}
+        urls={"/main/004.jpg"}
         number={"004"}
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/005.jpg"}
+        urls={"/main/005.jpg"}
         number={"005"}
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/006.jpg"}
+        urls={"/main/006.jpg"}
         number={"006"}
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/007.jpg"}
+        urls={"/main/007.jpg"}
         number={"007"}
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/008.jpg"}
+        urls={"/main/008.jpg"}
         number={"008"}
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/009.jpg"}
+        urls={"/main/009.jpg"}
         number={"009"}
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/010.jpg"}
+        urls={"/main/010.jpg"}
         number={"010"}
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/011.jpg"}
+        urls={"/main/011.jpg"}
         number={"011"}
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/012.jpg"}
+        urls={"/main/012.jpg"}
         number={"012"}
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/013.jpg"}
+        urls={"/main/013.jpg"}
         number={"013"}
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/014.jpg"}
+        urls={"/main/014.jpg"}
         number={"014"}
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/015.jpg"}
+        urls={"/main/015.jpg"}
         number={"015"}
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/016.jpg"}
+        urls={"/main/016.jpg"}
         number={"016"}
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/017.jpg"}
+        urls={"/main/017.jpg"}
         number={"017"}
         onClick={to}
       />
       <Album
-        urls={"/react-gh-pages/main/018.jpg"}
+        urls={"/main/018.jpg"}
         number={"018"}
         onClick={to}
       />

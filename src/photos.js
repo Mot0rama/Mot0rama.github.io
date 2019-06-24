@@ -1,7 +1,7 @@
 function getLinks(album, count) {
   const imagesNames = new Array(count).fill(0).map((_, i) => i + 1);
   return imagesNames
-    .map(name => `/react-gh-pages/photo/${album}/ ${name}.jpg`)
+    .map(name => `/photo/${album}/ ${name}.jpg`)
     .map(src => ({ src }));
 }
 
