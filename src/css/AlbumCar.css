@@ -1,0 +1,38 @@
+.flexy-container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+
+  width: 100%;
+  max-width: 1088px;
+}
+
+.flexy-item {
+  text-align: center;
+}
+
+.flexy-item img {
+  width: 960px;
+  object-fit: contain;
+  max-height: 639px;
+}
+
+/* 
+.GalRow ul {
+  padding: 0;
+  margin: 0;
+}
+
+.GalRow li {
+  padding: 0;
+  margin: 10px 0;
+  list-style-type: none;
+}
+
+.GalRow img {
+  display: inline;
+  vertical-align: middle;
+} */

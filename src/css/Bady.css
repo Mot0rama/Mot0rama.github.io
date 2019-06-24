@@ -1,0 +1,28 @@
+.bady {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.b1 {
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.b2 {
+  width: 100%;
+  flex: 1 0 auto;
+}
+
+.b3 {
+  align-self: center;
+  flex: 1 0 auto;
+}
+
+.b4 {
+  width: 100%;
+  padding-bottom: 10px;
+  flex: 0 0 auto;
+}

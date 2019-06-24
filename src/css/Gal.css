@@ -1,0 +1,9 @@
+.gal {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1088px;
+}

@@ -1,0 +1,13 @@
+.foot {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  overflow: auto;
+}
+
+.foot a {
+  margin: 10px;
+}

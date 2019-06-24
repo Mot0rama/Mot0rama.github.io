@@ -1,0 +1,31 @@
+.card {
+  width: 304px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-bottom: 80px;
+  justify-content: center;
+}
+
+.text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: poppins;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.rub {
+  font-family: poppins;
+  font-size: 30px;
+  color: red;
+  align-self: flex-end;
+}
+
+& > * {
+  flex: 1 1 100%;
+}
