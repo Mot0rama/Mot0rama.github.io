@@ -9,7 +9,7 @@ export function Ulnav({ activeRoute }) {
         className="flex-item"
         // className={"flex-item" + (activeRoute === "portfolio" ? " active" : "")}
       >
-        <NavLink to="/" activeClassName="active">
+        <NavLink to="/portfolio" activeClassName="active">
           {" "}
           Portfolio{" "}
         </NavLink>
@@ -36,9 +36,9 @@ export function Ulnav({ activeRoute }) {
         className="flex-item"
         // className={"flex-item" + (activeRoute === "contacts" ? " active" : "")}
       >
-        <NavLink to="/album" activeClassName="active">
+        <NavLink to="/home" activeClassName="active">
           {" "}
-          Album{" "}
+          Home{" "}
         </NavLink>
       </li> */}
     </ul>

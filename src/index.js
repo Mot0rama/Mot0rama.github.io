@@ -15,6 +15,7 @@ import { PhotoGallery } from "./PhotoGallery";
 import { HashRouter, Route } from "react-router-dom";
 import { GalPage } from "./GalPage";
 import { PricePage } from "./PricePage";
+import { HomePage } from "./HomePage";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
           <Ulnav />
         </Block2>
         <Block3>
-          <Route exact path="/" component={GalPage} />
+          <Route expect path="/home" component={HomePage} />
+          <Route path="/portfolio" component={GalPage} />
           <Route path="/price" component={PricePage} />
           <Route path="/contacts" component={Contacts} />
           <Route path="/album/:album" component={PhotoGallery} />
