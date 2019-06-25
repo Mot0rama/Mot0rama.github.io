@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
 .b3 {
   display: flex;
   align-items: center;
@@ -18,7 +19,7 @@
 }
 
 .home-text {
-  font-family: VerbenaC;
+  font-family: Caveat;
   font-size: 28px;
   text-decoration: none;
   color: black;
@@ -30,7 +31,7 @@
 .part3 {
 }
 .home-flex-item a {
-  font-family: VerbenaC;
+  font-family: Caveat;
   font-size: 28px;
   padding: 20px 40px;
 }

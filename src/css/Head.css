@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
 .head {
   background: url(https://i.ibb.co/PQZfzbR/Head-price.png);
   background-size: cover;
@@ -7,13 +8,13 @@
 }
 
 .mid h2 {
-  font-family: poppins;
+  font-family: Caveat;
   color: white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 48px;
+  font-size: 62px;
   border-bottom: 6px double white;
-  text-shadow: black 0 0 4px;
+  text-shadow: black 0 0 15px;
 }
