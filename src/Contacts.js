@@ -9,24 +9,19 @@ export function Contacts() {
     <div className="cont">
       <div className="cont-flex">
         <div className="cont-flex-item">
-          <img
-            className="cont-img"
-            src="https://i.ibb.co/6BMMGxz/Foto-cont.png"
-          />
+          <img className="cont-img" src="/social/price/cont.jpg" />
         </div>
 
         <div className="cont-text cont-flex-item">
-          <div className="center">
+          {/* <div className="center">
             <p>Proin eget condimentum dui</p> <br />
-          </div>
+          </div> */}
 
           <div>
             <p>
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-              posuere cubilia Curae; Vestibulum orci ipsum, rhoncus ac pharetra
-              nec, sollicitudin vitae tortor. Phasellus eu diam id massa porta
-              vulputate. Maecenas ultrices tincidunt purus sit amet tempus.
-              Pellentesque mollis congue lacinia.
+              Связаться со мной можно любым удобным для вас способом! Вы можете
+              позвонить, оставить сообщение в любом мессенджере или на
+              электронной почте, а так же найти меня в соцсетях.
             </p>{" "}
             <br />
           </div>

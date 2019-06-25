@@ -1,9 +1,14 @@
+.b3 {
+  display: flex;
+  align-items: center;
+}
 .cont {
-  margin-bottom: 40px;
+  align-self: center;
 }
 
 .cont-img {
-  max-width: 100%;
+  width: 528px;
+  height: auto;
 }
 
 .cont-flex {

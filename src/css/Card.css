@@ -9,6 +9,11 @@
   justify-content: center;
 }
 
+.card img {
+  width: 304px;
+  height: auto;
+  border-radius: 5px;
+}
 .text {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -20,9 +25,10 @@
 }
 
 .rub {
+  margin-top: 15px;
   font-family: poppins;
   font-size: 30px;
-  color: red;
+  color: black;
   align-self: flex-end;
 }
 
