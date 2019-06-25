@@ -1,3 +1,14 @@
+/* @media screen and (max-width: 768px) {
+  div {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  div {
+    width: 400px;
+  }
+} */
 .bady {
   display: flex;
   flex-direction: column;

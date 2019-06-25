@@ -9,14 +9,10 @@ export function Contacts() {
     <div className="cont">
       <div className="cont-flex">
         <div className="cont-flex-item">
-          <img className="cont-img" src="/social/cont.jpg" />
+          <img className="cont-img" src="social/cont.jpg" />
         </div>
 
         <div className="cont-text cont-flex-item">
-          {/* <div className="center">
-            <p>Proin eget condimentum dui</p> <br />
-          </div> */}
-
           <div>
             <p>
               Связаться со мной можно любым удобным для вас способом! Вы можете
