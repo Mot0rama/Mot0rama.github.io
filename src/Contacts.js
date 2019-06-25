@@ -9,7 +9,7 @@ export function Contacts() {
     <div className="cont">
       <div className="cont-flex">
         <div className="cont-flex-item">
-          <img className="cont-img" src="/social/price/cont.jpg" />
+          <img className="cont-img" src="/social/cont.jpg" />
         </div>
 
         <div className="cont-text cont-flex-item">

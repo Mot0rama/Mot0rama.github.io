@@ -10,7 +10,7 @@ export function PricePage() {
   return (
     <Price>
       <Card
-        img={"./social/price/love.jpg"}
+        img={"/social/love.jpg"}
         head={"ЛАВСТОРИ И СЕМЕЙНАЯ СЪЕМКА"}
         price={"от 3000₽"}
       >
@@ -26,7 +26,7 @@ export function PricePage() {
       </Card>
 
       <Card
-        img={"./social/price/ind.jpg"}
+        img={"/social/ind.jpg"}
         head={"ИНДИВИДУАЛЬНА СЪЕМКА"}
         price={"от 2000₽"}
       >
@@ -42,7 +42,7 @@ export function PricePage() {
       </Card>
 
       <Card
-        img={"./social/price/hud.jpg"}
+        img={"/social/hud.jpg"}
         head={"ХУДОЖЕСТВЕННАЯ СЪЕМКА"}
         price={"от 3000₽"}
       >

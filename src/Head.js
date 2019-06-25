@@ -5,7 +5,7 @@ import "./css/Head.css";
 export function Head() {
   return (
     <div className="head mid">
-      <Link to="/home">
+      <Link to="/">
         <h2> Nastya Trubitsina </h2>
       </Link>
     </div>

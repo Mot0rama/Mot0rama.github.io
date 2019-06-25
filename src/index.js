@@ -28,7 +28,7 @@ function App() {
           <Ulnav />
         </Block2>
         <Block3>
-          <Route expect path="/home" component={HomePage} />
+          <Route exact path="/" component={HomePage} />
           <Route path="/portfolio" component={GalPage} />
           <Route path="/price" component={PricePage} />
           <Route path="/contacts" component={Contacts} />
