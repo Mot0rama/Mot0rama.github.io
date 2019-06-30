@@ -4,6 +4,9 @@ import { albums } from "./photos";
 import "./css/PhotoGallery.css";
 import { GalRow } from "./AlbumCar";
 import { TopButton } from "./Button";
+import { result } from "./Bowser";
+
+const isMobile = result.platform === "mobile";
 
 export function PhotoGallery({ match }) {
   const photos = albums[match.params.album];
@@ -23,17 +26,19 @@ export function PhotoGallery({ match }) {
   return (
     <div className="photo-gal">
       <GalRow images={photos} onClick={openLightbox} />
-      <ModalGateway>
-        {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={photos.map(x => ({ ...x, width: "100%" }))}
-              // styles={{ view: () => ({ height: "100%", width: "100%" }) }}
-            />
-          </Modal>
-        ) : null}
-      </ModalGateway>
+      {!isMobile ? (
+        <ModalGateway>
+          {viewerIsOpen ? (
+            <Modal onClose={closeLightbox}>
+              <Carousel
+                currentIndex={currentImage}
+                views={photos.map(x => ({ ...x, width: "100%" }))}
+                // styles={{ view: () => ({ height: "100%", width: "100%" }) }}
+              />
+            </Modal>
+          ) : null}
+        </ModalGateway>
+      ) : null}
       <TopButton />
     </div>
   );
