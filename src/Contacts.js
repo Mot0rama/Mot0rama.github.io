@@ -24,8 +24,8 @@ export function Contacts() {
 
           <div className="cont-flex-item">
             <div className="num">
-              <div>
-                <p> atrubicina9@gmail.com </p>
+              <div className="mail">
+                <a href="mailto:atrubicina9@gmail.com">atrubicina9@gmail.com</a>{" "}
               </div>
               <div>||</div>
               <div>
