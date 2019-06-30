@@ -25,11 +25,11 @@ export function Contacts() {
           <div className="cont-flex-item">
             <div className="num">
               <div>
-                <p> nastyay@hmail.com </p>
+                <p> atrubicina9@gmail.com </p>
               </div>
               <div>||</div>
               <div>
-                <p> +7 (126) 245 45 88 </p>
+                <p> +7 (977) 610 89 69 </p>
               </div>
             </div>
           </div>

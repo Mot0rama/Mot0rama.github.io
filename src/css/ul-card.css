@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alegreya&display=swap");
 .card-ul {
   padding-left: 10;
 }
@@ -6,7 +6,7 @@
 .card-li {
   margin: 0;
   list-style: disc;
-  font-family: Caveat;
+  font-family: Alegreya;
   font-size: 22px;
   text-decoration: none;
   color: black;

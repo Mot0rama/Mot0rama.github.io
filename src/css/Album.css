@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alegreya&display=swap");
 .album-gal {
   margin-left: 20px;
   margin-right: 20px;
@@ -20,7 +20,7 @@
 
 figcaption {
   margin-top: 10px;
-  font-family: Caveat;
+  font-family: Alegreya;
   font-size: 18px;
   text-align: center;
 }

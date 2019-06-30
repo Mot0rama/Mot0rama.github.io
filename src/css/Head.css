@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alegreya&display=swap");
 .head {
   background: url(https://i.ibb.co/PQZfzbR/Head-price.png);
   background-size: cover;
@@ -8,7 +8,7 @@
 }
 
 .mid h2 {
-  font-family: Caveat;
+  font-family: Alegreya;
   color: white;
   position: absolute;
   top: 50%;

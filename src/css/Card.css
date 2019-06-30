@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alegreya&display=swap");
 .card {
   width: 304px;
   margin-left: 40px;
@@ -18,7 +18,7 @@
 .text {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: Caveat;
+  font-family: Alegreya;
   font-size: 24px;
   text-decoration: none;
   color: black;
@@ -29,7 +29,7 @@
 }
 .rub {
   margin-top: 15px;
-  font-family: Caveat;
+  font-family: Alegreya;
   font-size: 30px;
   color: black;
   align-self: flex-end;

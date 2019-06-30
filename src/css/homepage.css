@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alegreya&display=swap");
 .b3 {
   display: flex;
   align-items: center;
@@ -30,7 +30,7 @@
   padding-bottom: 40px;
 }
 .home-flex-item a {
-  font-family: Caveat;
+  font-family: Alegreya;
   font-size: 28px;
 }
 
