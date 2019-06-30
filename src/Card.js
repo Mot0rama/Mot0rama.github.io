@@ -7,8 +7,8 @@ export function Card({ children, img, head, price }) {
       <div>
         <img src={img} />
         <p class="text">{head}</p>
-        {children}
       </div>
+      <div className="center-text">{children}</div>
       <p className="rub">{price}</p>
     </div>
   );

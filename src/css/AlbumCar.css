@@ -5,8 +5,6 @@
   justify-content: space-around;
   align-items: center;
   overflow: hidden;
-
-  width: 100%;
   max-width: 1088px;
 }
 
@@ -15,10 +13,16 @@
 }
 
 .flexy-item img {
-  width: 960px;
   object-fit: contain;
-  max-height: 639px;
+  width: 90%;
+  height: auto;
 }
+
+/* @media screen and (max-width: 425px) {
+  .flexy-item img {
+    width: 300px;
+  }
+} */
 
 /* 
 .GalRow ul {

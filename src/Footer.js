@@ -16,7 +16,7 @@ export function Footer() {
       </div>
       <div>
         <a href="">
-          <img src="./social/tw.png" />
+          <img src="./social/telegram.png" />
         </a>
       </div>
     </div>
