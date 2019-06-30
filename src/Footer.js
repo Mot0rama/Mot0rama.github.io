@@ -15,7 +15,7 @@ export function Footer() {
         </a>
       </div>
       <div>
-        <a href="">
+        <a href="https://t-do.ru/Nastya14081994">
           <img src="./social/telegram.png" />
         </a>
       </div>
